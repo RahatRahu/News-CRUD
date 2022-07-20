@@ -1,0 +1,60 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bmV3cyUyMGJsb2clMjByZWdpc3RlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60");
+    background-size: cover;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.registerTitle {
+    font-size: 50px;
+}
+
+.registerForm {
+   margin-top: 20px;
+   display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+}
+
+.registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Varela Round', 'sans-serif';
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Varela Round', 'sans-serif';
+}
+
+.loginAlert {
+    color: red;
+    margin-top: 10px;
+    font-family: 'Varela Round', 'sans-serif';
+}
